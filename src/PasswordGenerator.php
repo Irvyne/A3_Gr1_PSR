@@ -13,24 +13,24 @@ namespace Web1\StringGenerator;
  */
 class PasswordGenerator
 {
-    const PASSWORD_EASY     = 0;
-    const PASSWORD_MEDIUM   = 1;
-    const PASSWORD_HARD     = 2;
+    const PASSWORD_EASY   = 0;
+    const PASSWORD_MEDIUM = 1;
+    const PASSWORD_HARD   = 2;
 
     /**
      * @var string
      */
-    private static $passwordCharEasy      = 'abcdefghijklmnopqrstuvwxyz';
+    private static $passwordCharEasy = 'abcdefghijklmnopqrstuvwxyz';
 
     /**
      * @var string
      */
-    private static $passwordCharMedium    = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    private static $passwordCharMedium = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
     /**
      * @var string
      */
-    private static $passwordCharHard      = 'éèà&#!$€£%+=@<?./,;:=+&é(§é!)-';
+    private static $passwordCharHard = 'éèà&#!$€£%+=@<?./,;:=+&é(§é!)-';
 
     /**
      * @var int
